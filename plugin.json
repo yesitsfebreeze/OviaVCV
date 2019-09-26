@@ -1,0 +1,25 @@
+{
+  "slug": "Ovia",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "name": "Ovia",
+  "brand": "Ovia",
+  "author": "Ovia",
+  "authorEmail": "contact@vcvrack.com",
+  "pluginUrl": "https://vcvrack.com/Ovia.html",
+  "authorUrl": "https://vcvrack.com/",
+  "manualUrl": "https://vcvrack.com/Ovia.html#manual",
+  "sourceUrl": "https://github.com/hvlmnns/Ovia",
+  "changelogUrl": "https://github.com/hvlmnns/Ovia/blob/v1/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Morse",
+      "name": "Morse",
+      "description": "Sampling Sequencer",
+      "tags": [
+        "Sequencer",
+        "Sampling"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Morse-Components" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="120px" height="380px" viewBox="0 0 120 380" style="enable-background:new 0 0 120 380;" xml:space="preserve">
+<g id="components">
+	<circle id="SEQ_8" style="fill:#FF0000;" cx="96.9" cy="224" r="13.1"/>
+	<circle id="SEQ_7" style="fill:#FF0000;" cx="96.9" cy="172.9" r="13.1"/>
+	<circle id="SEQ_6" style="fill:#FF0000;" cx="96.9" cy="121.7" r="13.1"/>
+	<circle id="SEQ_5" style="fill:#FF0000;" cx="96.9" cy="70.5" r="13.1"/>
+	<circle id="SEQ_4" style="fill:#FF0000;" cx="23.1" cy="224" r="13.1"/>
+	<circle id="SEQ_3" style="fill:#FF0000;" cx="23.1" cy="172.9" r="13.1"/>
+	<circle id="SEQ_2_1_" style="fill:#FF0000;" cx="23.1" cy="121.7" r="13.1"/>
+	<circle id="SEQ_1" style="fill:#FF0000;" cx="23.1" cy="70.5" r="13.1"/>
+	<circle id="SEQ_LIGHT_1" style="fill:#FF00FF;" cx="23.1" cy="70.5" r="3.6"/>
+	<circle id="SEQ_LIGHT_2" style="fill:#FF00FF;" cx="23.1" cy="121.7" r="3.6"/>
+	<circle id="SEQ_LIGHT_3" style="fill:#FF00FF;" cx="23.1" cy="172.9" r="3.6"/>
+	<circle id="SEQ_LIGHT_4" style="fill:#FF00FF;" cx="23.1" cy="224" r="3.6"/>
+	<circle id="SEQ_LIGHT_5" style="fill:#FF00FF;" cx="96.9" cy="70.5" r="3.6"/>
+	<circle id="SEQ_LIGHT_6" style="fill:#FF00FF;" cx="96.9" cy="121.7" r="3.6"/>
+	<circle id="SEQ_LIGHT_7" style="fill:#FF00FF;" cx="96.9" cy="172.9" r="3.6"/>
+	<circle id="SEQ_LIGHT_8" style="fill:#FF00FF;" cx="96.9" cy="224" r="3.6"/>
+	<circle id="SAMPLE_OUT_1" style="fill:#0000FF;" cx="15.7" cy="319.4" r="9.3"/>
+	<circle id="SAMPLE_OUT_2" style="fill:#0000FF;" cx="43.9" cy="319.4" r="9.3"/>
+	<ellipse id="SAMPLE_OUT_3" style="fill:#0000FF;" cx="72.2" cy="319.4" rx="9.3" ry="9.3"/>
+	<circle id="SAMPLE_OUT_4" style="fill:#0000FF;" cx="100.5" cy="319.4" r="9.3"/>
+	<circle id="SAMPLE_OUT_5" style="fill:#0000FF;" cx="15.7" cy="348.7" r="9.3"/>
+	<circle id="SAMPLE_OUT_6" style="fill:#0000FF;" cx="43.9" cy="348.7" r="9.3"/>
+	<ellipse id="SAMPLE_OUT_7" style="fill:#0000FF;" cx="72.2" cy="348.7" rx="9.3" ry="9.3"/>
+	<circle id="SAMPLE_OUT_8" style="fill:#0000FF;" cx="100.5" cy="348.7" r="9.3"/>
+	<circle id="MODE" style="fill:#FFFF00;" cx="23.1" cy="35" r="11.5"/>
+	<circle id="CLOCK_LIGHT" style="fill:#FF00FF;" cx="15.7" cy="260.5" r="3.2"/>
+	<circle id="RESET_LIGHT" style="fill:#FF00FF;" cx="43.9" cy="260.5" r="3.2"/>
+	<circle id="SEQ_OUT_LIGHT" style="fill:#FF00FF;" cx="100.5" cy="260.5" r="3.2"/>
+	<circle id="ADVANCE_LIGHT" style="fill:#FF00FF;" cx="72.2" cy="260.5" r="3.2"/>
+	<circle id="CLOCK" style="fill:#00FF00;" cx="15.7" cy="280.2" r="9.3"/>
+	<circle id="SEQ_OUT" style="fill:#0000FF;" cx="100.5" cy="280.2" r="9.3"/>
+	<ellipse id="ADVANCE" style="fill:#00FF00;" cx="72.2" cy="280.2" rx="9.3" ry="9.3"/>
+	<circle id="RESET" style="fill:#00FF00;" cx="43.9" cy="280.2" r="9.3"/>
+	<circle id="SAMPLE_IN" style="fill:#00FF00;" cx="96.9" cy="34.5" r="9.3"/>
+</g>
+<g>
+	<g>
+		<circle style="fill:#FF00FF;" cx="70.4037" cy="93.5882" r="1.9825"/>
+		<circle style="fill:#FF00FF;" cx="70.4037" cy="129.3626" r="1.9825"/>
+		<circle style="fill:#FF00FF;" cx="70.4037" cy="165.1371" r="1.9825"/>
+		<circle style="fill:#FF00FF;" cx="70.4037" cy="200.9116" r="1.9825"/>
+	</g>
+	<g>
+		<circle style="fill:#FF00FF;" cx="49.5964" cy="93.5882" r="1.9825"/>
+		<circle style="fill:#FF00FF;" cx="49.5964" cy="129.3626" r="1.9825"/>
+		<circle style="fill:#FF00FF;" cx="49.5964" cy="165.1371" r="1.9825"/>
+		<circle style="fill:#FF00FF;" cx="49.5964" cy="200.9116" r="1.9825"/>
+	</g>
+</g>
+<g>
+	<circle style="fill:#FF00FF;" cx="47.9783" cy="29.5" r="2.2058"/>
+	<circle style="fill:#FF00FF;" cx="60.5749" cy="29.5" r="2.2058"/>
+	<circle style="fill:#FF00FF;" cx="73.1715" cy="29.5" r="2.2058"/>
+	<circle style="fill:#FF00FF;" cx="47.9783" cy="40.5" r="2.2058"/>
+	<circle style="fill:#FF00FF;" cx="60.5749" cy="40.5" r="2.2058"/>
+	<circle style="fill:#FF00FF;" cx="73.1715" cy="40.5" r="2.2058"/>
+</g>
+</svg>
