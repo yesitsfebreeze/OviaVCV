@@ -61,7 +61,6 @@ struct Morse : Module
 	int currentPattern = 0;
 	bool patternAdvance = true;
 
-#include "morse/helpers/ModeSelector.hpp"
 #include "morse/structs/Pattern.hpp"
 	MorsePattern patterns[8];
 
@@ -82,10 +81,13 @@ struct Morse : Module
 #include "morse/helpers/IterateSteps.hpp"
 #include "morse/helpers/HoldDetection.hpp"
 
-#include "morse/tasks/Clock.hpp"
+#include "morse/tasks/Clocking.hpp"
 #include "morse/tasks/Sequencing.hpp"
 #include "morse/tasks/lights/StepLights.hpp"
 #include "morse/tasks/lights/PatternLights.hpp"
+
+// modes
+#include "morse/modes/PlayMode.hpp"
 
 	void process(const ProcessArgs &args) override
 	{
@@ -95,19 +97,27 @@ struct Morse : Module
 			return;
 		}
 
-		MorseClock(args);
+		MorseClocking(args);
+
+		// process modes
+		MorsePlayMode::general(args);
 
 		// ticks on step change
 		auto stepCallback = [&](int key, Morse::MorsePattern &pattern, Morse::MorseStep &step) {
 			MorseStepDecorator(args, key, pattern, step);
 
-			MorseStepLights(args, key, step);
+			// process modes
+			MorsePlayMode::step(args);
+			// MorseStepLights(args, key, step);
 		};
 
 		// ticks on pattern change
 		auto patternCallback = [&](int key, Morse::MorsePattern &pattern) {
 			MorsePatternDecorator(args, key, pattern);
-			MorsePatternLights(args, key, pattern);
+
+			// process modes
+			MorsePlayMode::pattern(args);
+			// MorsePatternLights(args, key, pattern);
 
 			if (pattern.isCurrent())
 			{

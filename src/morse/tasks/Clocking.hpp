@@ -1,6 +1,8 @@
+#ifndef MORSE_TASKS_CLOCKING
+#define MORSE_TASKS_CLOCKING
 dsp::SchmittTrigger clockTrigger;
 
-void MorseClock(const Module::ProcessArgs &args)
+void MorseClocking(const Module::ProcessArgs &args)
 {
   if (inputs[CLOCK_INPUT].isConnected())
   {
@@ -27,8 +29,6 @@ void MorseClock(const Module::ProcessArgs &args)
         }
       }
     }
-
-    // setCurrentPatternHere
-    // setCurrentStepHere
   }
 }
+#endif

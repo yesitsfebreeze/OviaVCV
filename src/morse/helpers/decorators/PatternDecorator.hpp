@@ -12,7 +12,7 @@ void MorsePatternDecorator(const Module::ProcessArgs &args, int key, Morse::Mors
 
   if (!pattern.isActive())
   {
-    // pattern.setCurrent(false);
+    pattern.setCurrent(false);
     this->currentPattern++;
     return;
   }
